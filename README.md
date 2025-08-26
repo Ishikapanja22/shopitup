@@ -1,12 +1,50 @@
-# React + Vite
+# ShopItUp – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **React + Vite frontend** for the ShopItUp e-commerce platform.  
 
-Currently, two official plugins are available:
+##  Tech
+- React + Vite
+- Redux Toolkit (state management)
+- TailwindCSS / Bootstrap (styling)
+- Axios (API requests)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Setup
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+# ShopItUp – Backend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This is the **Express + Node.js backend API** for the ShopItUp e-commerce platform.
+
+## Tech
+- Node.js + Express
+- MongoDB + Mongoose
+- JWT Authentication
+- Stripe API (payments)
+- dotenv for environment configuration
+
+##  Setup
+
+### 1. Install dependencies
+```bash
+cd backend
+npm install
+```
+2. Setup environment variables
+
+Create a .env file inside backend/:
+
+PORT=5000
+MONGO_URI=your-mongodb-uri
+JWT_SECRET=your-jwt-secret
+STRIPE_SECRET_KEY=your-stripe-secret-key
+
+3. Run server
+# Development
+npm run dev
+
+# Production
+npm start
