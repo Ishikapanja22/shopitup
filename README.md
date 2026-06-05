@@ -6,7 +6,7 @@ A full-stack MERN e-commerce web app with product browsing, cart management, and
 (https://shopitup.vercel.app)
 
 ## Preview
-ShopItUp Preview (./shopitup%20preview.png)
+ShopItUp Preview (https://github.com/Ishikapanja22/shopitup/blob/main/shopitup%20preview.png)
 
 ## Features
 - User Registration & Login (JWT Auth)
